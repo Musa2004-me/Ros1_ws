@@ -1,0 +1,8 @@
+<launch>
+  <!-- Start the turtlesim node -->
+  <node name="turtlesim" pkg="turtlesim" type="turtlesim_node" output="screen" />
+
+  <!-- Start your turtle_commander node -->
+  <node name="turtle_commander" pkg="musa" type="turtle_commander.py" output="screen" />
+</launch>
+

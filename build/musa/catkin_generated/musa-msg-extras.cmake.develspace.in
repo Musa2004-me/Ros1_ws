@@ -1,0 +1,2 @@
+set(musa_MESSAGE_FILES "/home/musa/ros1_ws/src/musa/msg/Num.msg;/home/musa/ros1_ws/devel/share/musa/msg/CounterAction.msg;/home/musa/ros1_ws/devel/share/musa/msg/CounterActionGoal.msg;/home/musa/ros1_ws/devel/share/musa/msg/CounterActionResult.msg;/home/musa/ros1_ws/devel/share/musa/msg/CounterActionFeedback.msg;/home/musa/ros1_ws/devel/share/musa/msg/CounterGoal.msg;/home/musa/ros1_ws/devel/share/musa/msg/CounterResult.msg;/home/musa/ros1_ws/devel/share/musa/msg/CounterFeedback.msg")
+set(musa_SERVICE_FILES "/home/musa/ros1_ws/src/musa/srv/AddTwoInts.srv")

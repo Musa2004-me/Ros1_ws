@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<package format="2">
+  <name>musa</name>
+  <version>0.0.0</version>
+  <description>The musa package</description>
+
+  <maintainer email="musa@todo.todo">musa</maintainer>
+  <license>MIT</license>
+
+  <!-- Build system -->
+  <buildtool_depend>catkin</buildtool_depend>
+
+  <!-- Build and runtime dependencies -->
+  <depend>roscpp</depend>
+  <depend>rospy</depend>
+  <depend>std_msgs</depend>
+  <depend>geometry_msgs</depend>
+  <depend>turtlesim</depend>
+  <depend>std_srvs</depend>
+  <build_depend>message_generation</build_depend>
+  <exec_depend>message_runtime</exec_depend>
+  <build_depend>actionlib_msgs</build_depend>
+  <build_export_depend>actionlib_msgs</build_export_depend>
+  <exec_depend>actionlib_msgs</exec_depend>
+  <exec_depend>roslaunch</exec_depend>
+
+
+  <export>
+  </export>
+</package>

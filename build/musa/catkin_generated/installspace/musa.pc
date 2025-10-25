@@ -1,0 +1,8 @@
+prefix=/home/musa/ros1_ws/install
+
+Name: musa
+Description: Description of musa
+Version: 0.0.0
+Cflags: -I${prefix}/include
+Libs: -L${prefix}/lib 
+Requires: message_runtime rospy std_msgs geometry_msgs turtlesim std_srvs actionlib_msgs
